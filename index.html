@@ -152,7 +152,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://blog.sunlan.me/2019/08/23/Groovy-3%E4%B9%8BNative-Method-Reference-Constructor-Reference/">
+    <link itemprop="mainEntityOfPage" href="http://blog.sunlan.me/2018/02/18/Groovy-3%E4%B9%8BNative-Lambda%E5%8F%8AMethod-Constructor-Reference/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -166,75 +166,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2019/08/23/Groovy-3%E4%B9%8BNative-Method-Reference-Constructor-Reference/" class="post-title-link" itemprop="url">Groovy 3之Native Method Reference & Constructor Reference</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2019-08-23 15:27:44 / 修改时间：15:42:43" itemprop="dateCreated datePublished" datetime="2019-08-23T15:27:44+08:00">2019-08-23</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Groovy/" itemprop="url" rel="index"><span itemprop="name">Groovy</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>为了进一步与Java兼容，Groovy 3.0.0引入了Native Method Reference以及Native Constructor Reference。之所以冠以“Native”，是因为其bytecode与Java编译器生成的bytecode十分相近，故其性能也基本与Java相同。而与Native Lambda相比，理论上其性能会更优一些，因为Groovy编译器并不会为它们生成内部类以及内部类对象。</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://blog.sunlan.me/2018/02/18/Groovy-3%E4%B9%8BNative-Lambda/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="孙岚">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="孙岚的个人博客">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2018/02/18/Groovy-3%E4%B9%8BNative-Lambda/" class="post-title-link" itemprop="url">Groovy 3之Native Lambda</a>
+            <a href="/2018/02/18/Groovy-3%E4%B9%8BNative-Lambda%E5%8F%8AMethod-Constructor-Reference/" class="post-title-link" itemprop="url">Groovy 3之Native Lambda及Method/Constructor Reference</a>
         </h2>
 
         <div class="post-meta">
@@ -251,7 +183,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2019-08-23 15:24:08" itemprop="dateModified" datetime="2019-08-23T15:24:08+08:00">2019-08-23</time>
+                <time title="修改时间：2021-04-03 21:55:08" itemprop="dateModified" datetime="2021-04-03T21:55:08+08:00">2021-04-03</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -274,7 +206,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>为了提升Groovy中Lambda的性能，通过静态编译模式提供的类型信息以及Java 7引入的invokedynamic指令为Groovy生成与Java相似的bytecode，暂且称之为”Native Lambda”。而除了性能方面的提升外，在设计和实现Native Lambda时还考虑了尽可能保留Closure既有特性，为此每个Native Lambda都会对应一个内部类实例，故性能方面会稍微有些影响，鱼与熊掌不可兼得。另外，由于Lambda无法引用自身，也无法引用外层Lambda实例，故Lambda相对Closure而言不太适合运用于DSL的实现中。如果追求极致性能，则建议在静态编译模式下尽量使用Lambda，这也可以算作一个提升性能的小技巧。</p>
+          <p>为了提升Groovy中Lambda的性能，通过静态编译模式提供的类型信息以及Java 7引入的invokedynamic指令为Groovy生成与Java相似的bytecode，故称之为”Native Lambda”。而除了性能方面的提升外，在设计和实现Native Lambda时还考虑了尽可能保留Closure既有特性，为此每个Native Lambda都会对应一个内部类实例，因此性能方面会稍微有些影响，可谓鱼与熊掌不可兼得。另外，由于Lambda无法引用自身，也无法引用外层Lambda实例，所以Lambda相对Closure而言不太适合运用于DSL的实现。如果追求极致性能，则建议在静态编译模式下尽量使用Lambda，这也可以算作一个提升性能的小技巧。而为了进一步兼容Java，Groovy 3还引入了Native Method Reference以及Native Constructor Reference, 其bytecode与Java编译器生成的bytecode十分相近，其性能也基本与Java相同，并且与Native Lambda相比，其性能会更优一些，因为Groovy编译器并不会为它们生成内部类以及内部类对象。</p>
 
       
     </div>
@@ -616,7 +548,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-count">4</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
