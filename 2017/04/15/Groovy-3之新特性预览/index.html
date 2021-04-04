@@ -25,7 +25,7 @@
 <meta property="og:description" content="背景介绍Groovy面世已有10多年光阴，在不断创新的同时还汲取了不少其他语言的优秀特性。目前Groovy核心团队已开始将重心逐渐转移到Groovy 3的研发上，而Groovy 3的主要亮点之一便是其全新的解析器以及更加丰富的语言特性。由于前期为Groovy研发了这一全新的解析器并添加了不少语言特性，有幸受邀成为Groovy核心团队的一员。最初我将该全新的解析器命名为“Parrot”，其含义相对比">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2017-04-14T17:17:32.000Z">
-<meta property="article:modified_time" content="2021-04-03T15:24:12.883Z">
+<meta property="article:modified_time" content="2021-04-04T19:03:58.657Z">
 <meta property="article:author" content="孙岚">
 <meta property="article:tag" content="Groovy 3">
 <meta property="article:tag" content="Parrot Parser">
@@ -231,7 +231,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-04-03 23:24:12" itemprop="dateModified" datetime="2021-04-03T23:24:12+08:00">2021-04-03</time>
+                <time title="修改时间：2021-04-05 03:03:58" itemprop="dateModified" datetime="2021-04-05T03:03:58+08:00">2021-04-05</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -254,7 +254,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h2 id="背景介绍"><a href="#背景介绍" class="headerlink" title="背景介绍"></a>背景介绍</h2><p>Groovy面世已有10多年光阴，在不断创新的同时还汲取了不少其他语言的优秀特性。目前Groovy核心团队已开始将重心逐渐转移到Groovy 3的研发上，而Groovy 3的主要亮点之一便是其全新的解析器以及更加丰富的语言特性。由于前期为Groovy研发了<a target="_blank" rel="noopener" href="https://github.com/danielsun1106/groovy-parser">这一全新的解析器</a>并添加了不少语言特性，<a target="_blank" rel="noopener" href="http://mail-archives.apache.org/mod_mbox/groovy-users/201611.mbox/%3CCAMbkE7T%2Bcshvyi%2B4TZB6wFimp8B1ryC2mb1gYzGYWLd_z%3D8KqQ%40mail.gmail.com%3E">有幸受邀成为Groovy核心团队的一员</a>。最初我将该全新的解析器命名为“Parrot”，其含义相对比较谦卑，即“鹦鹉学舌”，学着如何说Groovy以及Java8，通过数月陆陆续续地完善，已达到一定的成熟度并<a target="_blank" rel="noopener" href="https://github.com/apache/groovy/commit/a3f8671b5fb6ce83a7c3c65c04d46626ddbb646a">已被纳入master分支</a>。</p>
+        <h2 id="背景介绍"><a href="#背景介绍" class="headerlink" title="背景介绍"></a>背景介绍</h2><p>Groovy面世已有10多年光阴，在不断创新的同时还汲取了不少其他语言的优秀特性。目前Groovy核心团队已开始将重心逐渐转移到Groovy 3的研发上，而Groovy 3的主要亮点之一便是其全新的解析器以及更加丰富的语言特性。由于前期为Groovy研发了<a target="_blank" rel="noopener" href="https://github.com/danielsun1106/groovy-parser">这一全新的解析器</a>并添加了不少语言特性，<a target="_blank" rel="noopener" href="http://mail-archives.apache.org/mod_mbox/groovy-users/201611.mbox/%3CCAMbkE7T%2Bcshvyi%2B4TZB6wFimp8B1ryC2mb1gYzGYWLd_z%3D8KqQ%40mail.gmail.com%3E">有幸受邀成为Groovy核心团队的一员</a>。最初我将该全新的解析器命名为“Parrot”，其含义相对比较谦卑，即“鹦鹉学舌”，学着如何说Groovy以及Java8，通过数月陆陆续续地完善，已达到一定的成熟度并<a target="_blank" rel="noopener" href="https://github.com/apache/groovy/commit/a3f8671b5fb6ce83a7c3c65c04d46626ddbb646a">已被纳入master分支</a>。<span id="more"></span></p>
 <p>接下来的内容将主要介绍一下这些新特性。可在<a target="_blank" rel="noopener" href="https://groovy.apache.org/download.html">Groovy官方网站</a>下载Groovy 3尝鲜。</p>
 <p><strong>注：</strong> 在Apache Groovy 3.0.0的Release Note中对该解析器有较为全面地介绍：<a target="_blank" rel="noopener" href="http://groovy-lang.org/releasenotes/groovy-3.0.html">http://groovy-lang.org/releasenotes/groovy-3.0.html</a></p>
 <h2 id="新特性预览"><a href="#新特性预览" class="headerlink" title="新特性预览"></a>新特性预览</h2><h3 id="1-完善循环语句"><a href="#1-完善循环语句" class="headerlink" title="1. 完善循环语句"></a>1. 完善循环语句</h3><p>在Groovy 3之前，Groovy既不支持do-while语句，也不支持真正符合Java语法规范的for语句（比如：多个初始化以及多个更新表达式）。在Groovy 3中，对循环语句做了完整的支持，令Java背景的开发人员可以更加平缓地过度到Groovy开发。举些例子：</p>
