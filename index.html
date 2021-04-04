@@ -6,6 +6,8 @@
 <meta name="theme-color" content="#222">
 <meta name="generator" content="Hexo 5.4.0">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
   <meta name="google-site-verification" content="h4Zye-H-4cMnH7XYgjZnzlWV66qQsrjvi1oJSwj9HRQ">
   <meta name="msvalidate.01" content="3EB267585E147D46D980EEEAEF29A3BE">
   <meta name="baidu-site-verification" content="code-ZmfQwNfOhP">
@@ -17,7 +19,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"blog.sunlan.me","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":-1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"blog.sunlan.me","root":"/","scheme":"Gemini","version":"7.8.0","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":-1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta property="og:type" content="website">
@@ -491,7 +493,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h2 id="背景介绍"><a href="#背景介绍" class="headerlink" title="背景介绍"></a>背景介绍</h2><p>Groovy面世已有10多年光阴，在不断创新的同时还汲取了不少其他语言的优秀特性。目前Groovy核心团队已开始将重心逐渐转移到Groovy 3的研发上，而Groovy 3的主要亮点之一便是其全新的解析器以及更加丰富的语言特性。由于前期为Groovy研发了<a target="_blank" rel="noopener" href="https://github.com/danielsun1106/groovy-parser">这一全新的解析器</a>并添加了不少语言特性，<a target="_blank" rel="noopener" href="http://mail-archives.apache.org/mod_mbox/groovy-users/201611.mbox/%3CCAMbkE7T%2Bcshvyi%2B4TZB6wFimp8B1ryC2mb1gYzGYWLd_z%3D8KqQ%40mail.gmail.com%3E">有幸受邀成为Groovy核心团队的一员</a>。最初我将该全新的解析器命名为“Parrot”，其含义相对比较谦卑，即“鹦鹉学舌”，学着如何说Groovy以及Java8，通过数月陆陆续续地完善，已达到一定的成熟度并<a target="_blank" rel="noopener" href="https://github.com/apache/groovy/commit/a3f8671b5fb6ce83a7c3c65c04d46626ddbb646a">已被纳入master分支</a>。
+          <h2 id="背景介绍"><a href="#背景介绍" class="headerlink" title="背景介绍"></a>背景介绍</h2><p>Groovy面世已有10多年光阴，在不断创新的同时还汲取了不少其他语言的优秀特性。目前Groovy核心团队已开始将重心逐渐转移到Groovy 3的研发上，而Groovy 3的主要亮点之一便是其全新的解析器以及更加丰富的语言特性。由于前期为Groovy研发了<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2RhbmllbHN1bjExMDYvZ3Jvb3Z5LXBhcnNlcg==">这一全新的解析器<i class="fa fa-external-link-alt"></i></span>并添加了不少语言特性，<span class="exturl" data-url="aHR0cDovL21haWwtYXJjaGl2ZXMuYXBhY2hlLm9yZy9tb2RfbWJveC9ncm9vdnktdXNlcnMvMjAxNjExLm1ib3gvJTNDQ0FNYmtFN1QlMkJjc2h2eWklMkI0VFpCNndGaW1wOEIxcnlDMm1iMWdZekdZV0xkX3olM0Q4S3FRJTQwbWFpbC5nbWFpbC5jb20lM0U=">有幸受邀成为Groovy核心团队的一员<i class="fa fa-external-link-alt"></i></span>。最初我将该全新的解析器命名为“Parrot”，其含义相对比较谦卑，即“鹦鹉学舌”，学着如何说Groovy以及Java8，通过数月陆陆续续地完善，已达到一定的成熟度并<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FwYWNoZS9ncm9vdnkvY29tbWl0L2EzZjg2NzFiNWZiNmNlODNhN2MzYzY1YzA0ZDQ2NjI2ZGRiYjY0NmE=">已被纳入master分支<i class="fa fa-external-link-alt"></i></span>。
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2017/04/15/Groovy-3%E4%B9%8B%E6%96%B0%E7%89%B9%E6%80%A7%E9%A2%84%E8%A7%88/#more" rel="contents">
@@ -676,14 +678,14 @@
 </div>
   <div class="links-of-author motion-element">
       <span class="links-of-author-item">
-        <a href="https://github.com/danielsun1106" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;danielsun1106" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+        <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2RhbmllbHN1bjExMDY=" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;danielsun1106"><i class="fab fa-github fa-fw"></i>GitHub</span>
       </span>
       <span class="links-of-author-item">
-        <a href="https://twitter.com/daniel_sun" title="Twitter → https:&#x2F;&#x2F;twitter.com&#x2F;daniel_sun" rel="noopener" target="_blank"><i class="fab fa-twitter fa-fw"></i>Twitter</a>
+        <span class="exturl" data-url="aHR0cHM6Ly90d2l0dGVyLmNvbS9kYW5pZWxfc3Vu" title="Twitter → https:&#x2F;&#x2F;twitter.com&#x2F;daniel_sun"><i class="fab fa-twitter fa-fw"></i>Twitter</span>
       </span>
   </div>
   <div class="cc-license motion-element" itemprop="license">
-    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+    <span class="exturl cc-opacity" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC8="><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></span>
   </div>
 
 
