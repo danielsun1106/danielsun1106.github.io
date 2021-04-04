@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://blog.sunlan.me/2021/04/04/Groovy%E4%B9%8B%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F/</loc>
+    
+    <lastmod>2021-04-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.sunlan.me/2017/04/15/Groovy-3%E4%B9%8B%E6%96%B0%E7%89%B9%E6%80%A7%E9%A2%84%E8%A7%88/</loc>
+    
+    <lastmod>2021-04-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.sunlan.me/2018/02/18/Groovy-3%E4%B9%8BNative-Lambda%E5%8F%8AMethod-Constructor-Reference/</loc>
+    
+    <lastmod>2021-04-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.sunlan.me/2017/04/28/MyBatis%E4%B9%8B%E6%9F%A5%E8%AF%A2%E8%BF%94%E5%9B%9E%E8%AE%B0%E5%BD%95%E5%AD%97%E6%AE%B5%E4%B8%8D%E5%85%A8%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</loc>
+    
+    <lastmod>2021-04-03</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.sunlan.me/categories/index.html</loc>
+    
+    <lastmod>2021-04-03</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.sunlan.me/tags/index.html</loc>
+    
+    <lastmod>2021-04-03</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.sunlan.me/about/index.html</loc>
+    
+    <lastmod>2021-04-03</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.sunlan.me/2017/03/19/My-first-blog/</loc>
+    
+    <lastmod>2018-02-17</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.sunlan.me/404.html</loc>
+    
+    <lastmod>2018-02-17</lastmod>
+    
+  </url>
+  
+
+  <url>
+    <loc>http://blog.sunlan.me/</loc>
+    <lastmod>2021-04-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>http://blog.sunlan.me/tags/Groovy-3/</loc>
+    <lastmod>2021-04-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sunlan.me/tags/Closure/</loc>
+    <lastmod>2021-04-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sunlan.me/tags/Lambda/</loc>
+    <lastmod>2021-04-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sunlan.me/tags/Method-Reference/</loc>
+    <lastmod>2021-04-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sunlan.me/tags/Constructor-Reference/</loc>
+    <lastmod>2021-04-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sunlan.me/tags/Parrot-Parser/</loc>
+    <lastmod>2021-04-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sunlan.me/tags/Groovy-History/</loc>
+    <lastmod>2021-04-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sunlan.me/tags/MyBatis/</loc>
+    <lastmod>2021-04-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  
+  <url>
+    <loc>http://blog.sunlan.me/categories/Groovy/</loc>
+    <lastmod>2021-04-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sunlan.me/categories/%E5%85%B6%E4%BB%96/</loc>
+    <lastmod>2021-04-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sunlan.me/categories/MyBatis/</loc>
+    <lastmod>2021-04-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+</urlset>
