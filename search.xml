@@ -71,7 +71,8 @@
     <title>Groovy之前世今生</title>
     <url>/2021/04/04/Groovy%E4%B9%8B%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F/</url>
     <content><![CDATA[<p>Groovy于2003年由James Strachan设计并实现了其原型，迄今已十八岁，即已成年。Groovy的成长过程，也是众多智者贡献心力的过程，其中令我印象比较深刻的贡献者有Jochen Theodorou、Paul King、Cedric Champeau、Guillaume Laforge、Dierk König、Eric Milles、Alex Tkachman、John Wilson、Russel Winder、Danno Ferrin、Hamlet D’Arcy、Jeremy Rayner、John Wagenleitner、Sergei Egorov、Andres Almiray，还有一位鲜有人提及的但语言造诣很高的布道师Gavin Grover。下面是Paul King撰写的一篇关于Groovy发展历史的论文，带领大家回顾Groovy的前世今生：</p>
-<div class="pdfobject-container" data-target="/2021/04/04/Groovy之前世今生/A.History.of.the.Groovy.Programming.Language.pdf" data-height="500px"></div>
+<div class="pdfobject-container" data-target="/2021/04/04/Groovy%E4%B9%8B%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F/A.History.of.the.Groovy.Programming.Language.pdf" data-height="500px"></div>
+
 ]]></content>
       <categories>
         <category>Groovy</category>
