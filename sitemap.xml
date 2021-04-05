@@ -67,7 +67,7 @@
 
   <url>
     <loc>http://blog.sunlan.me/</loc>
-    <lastmod>2021-04-04</lastmod>
+    <lastmod>2021-04-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -75,56 +75,56 @@
   
   <url>
     <loc>http://blog.sunlan.me/tags/Groovy-3/</loc>
-    <lastmod>2021-04-04</lastmod>
+    <lastmod>2021-04-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://blog.sunlan.me/tags/Closure/</loc>
-    <lastmod>2021-04-04</lastmod>
+    <lastmod>2021-04-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://blog.sunlan.me/tags/Lambda/</loc>
-    <lastmod>2021-04-04</lastmod>
+    <lastmod>2021-04-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://blog.sunlan.me/tags/Method-Reference/</loc>
-    <lastmod>2021-04-04</lastmod>
+    <lastmod>2021-04-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://blog.sunlan.me/tags/Constructor-Reference/</loc>
-    <lastmod>2021-04-04</lastmod>
+    <lastmod>2021-04-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://blog.sunlan.me/tags/Parrot-Parser/</loc>
-    <lastmod>2021-04-04</lastmod>
+    <lastmod>2021-04-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://blog.sunlan.me/tags/Groovy-History/</loc>
-    <lastmod>2021-04-04</lastmod>
+    <lastmod>2021-04-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://blog.sunlan.me/tags/MyBatis/</loc>
-    <lastmod>2021-04-04</lastmod>
+    <lastmod>2021-04-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -133,21 +133,21 @@
   
   <url>
     <loc>http://blog.sunlan.me/categories/Groovy/</loc>
-    <lastmod>2021-04-04</lastmod>
+    <lastmod>2021-04-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://blog.sunlan.me/categories/%E5%85%B6%E4%BB%96/</loc>
-    <lastmod>2021-04-04</lastmod>
+    <lastmod>2021-04-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://blog.sunlan.me/categories/MyBatis/</loc>
-    <lastmod>2021-04-04</lastmod>
+    <lastmod>2021-04-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
