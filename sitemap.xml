@@ -123,6 +123,13 @@
   </url>
   
   <url>
+    <loc>http://blog.sunlan.me/tags/Groovy-4/</loc>
+    <lastmod>2021-05-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.sunlan.me/tags/GINQ/</loc>
     <lastmod>2021-05-03</lastmod>
     <changefreq>daily</changefreq>
