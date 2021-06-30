@@ -127,8 +127,10 @@
 <li>Sergei Egorov</li>
 <li>Andres Almiray</li>
 </ul>
-<p>还有一位鲜有人提及的但语言造诣很高的布道师Gavin Grover。下面是Paul King撰写的一篇关于Groovy发展历史的论文，带领大家回顾Groovy的前世今生：</p>
-<div class="pdfobject-container" data-target="/2021/04/04/Groovy之前世今生/A.History.of.the.Groovy.Programming.Language.pdf" data-height="500px"></div>
+<p>还有一位鲜有人提及的但语言造诣很高的布道师Gavin Grover。下面是Paul King撰写的一篇关于Groovy发展历史的论文及其相关的PPT，带领大家回顾Groovy的前世今生：</p>
+<h2 id="论文"><a href="#论文" class="headerlink" title="论文"></a>论文</h2><div class="pdfobject-container" data-target="/2021/04/04/Groovy之前世今生/A.History.of.the.Groovy.Programming.Language.pdf" data-height="500px"></div>
+
+<h2 id="PPT"><a href="#PPT" class="headerlink" title="PPT"></a>PPT</h2><div class="pdfobject-container" data-target="/2021/04/04/Groovy之前世今生/HistoryGroovy_PaulKing_May2021.pdf" data-height="500px"></div>
 ]]></content>
       <categories>
         <category>Groovy</category>
